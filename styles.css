@@ -1,0 +1,379 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+      font-family: Helvetica;
+      scroll-behavior: smooth; 
+
+}
+
+.windows{
+      height: 100%;
+      width: 100%;
+}
+.wrapper {
+      height: 100vh;
+      width: 100%;
+}
+
+.pattern {
+      position: absolute;
+      left: 20%;
+      width: 60%;
+      height: 100vh;
+      background: url(img/BG_Pattern.png) no-repeat 50% 50%;
+      z-index: -5;
+      opacity: 0.4;
+      position: fixed;
+}
+
+.nav {
+      z-index: 1;
+      width: 100%;
+      height: 80px;
+      position: fixed;
+      background-color: white;
+      /* position: fixed;  衝突點 無法做連結  */
+}
+
+.logo {
+      font-size: 18px;
+      margin: 0.2em 2em;
+      line-height: 80px;
+      position: absolute;
+}
+
+.menu {
+    position: absolute;
+      height: 80px;
+      right: 120px;
+}   
+
+.menu ul {
+      list-style: none;
+}
+
+.menu ul li {
+      display: inline-block;
+      margin: 1em 0;
+      padding: 0 30px;
+      font-size: 18px;
+}
+
+a{
+      color:black;
+      text-decoration:none;
+      text-transform: uppercase;
+
+}
+
+.cart {
+      position: fixed;
+      font-size: 16px;
+      margin: 0.2em 1em;
+      line-height: 80px;
+      right: 20px;
+}
+
+.box-1 {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      background: none;
+      border: 2px solid #3d3d3b;
+      top: 10%;
+      left: 15%;
+      z-index: -1;
+      transform: rotate(60deg);
+}
+
+.box-2 {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      background: #3d3d3b;
+      /* border: 2px solid orange; */
+      top: 54%;
+      left: 28%;
+      z-index: -1;
+      transform: rotate(-110deg);
+}
+
+.box-3 {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      background: none;
+      border: 2px solid black;
+      top: 25%;
+      left: 78%;
+      z-index: -1;
+      transform: rotate(30deg);
+}
+
+
+.runner {
+      height: 90%;
+      width: 60%;
+      z-index: -1;
+      margin-top: 20%;
+      /* position: fixed; */
+}
+
+.runner1 {
+      height: 90%;
+      width: 60%;
+      z-index: -1;
+      margin-top: 80%;
+      /* position: fixed; */
+}
+
+.runner2 {
+      height: 90%;
+      width: 60%;
+      z-index: -1;
+      margin-top: 10%;
+      /* position: fixed; */
+}
+
+.runner3 {
+      height: 90%;
+      width: 60%;
+      z-index: -1;
+      margin-top: 60%;
+      /* position: fixed; */
+}
+
+
+
+
+
+.title-2 {
+      position: absolute;
+      top: 50%;
+      left: 70.12%;
+      transform: translate(-50%, -50%);
+      font-family: Anton;
+      font-size: 90px;
+      color: gray;
+      font-style: italic;
+      text-transform: uppercase;
+      z-index: -1;
+      -webkit-text-stroke: 2px white;
+      opacity: 0;
+}
+
+.title-1 {
+      position: absolute;
+      top: 37%;
+      left: 32.4%;
+      transform: translate(-50%, -50%);
+      font-family: Anton;
+      font-size: 100px;
+      color: gray;
+      padding-right: 20px;
+      font-style: italic;
+      text-transform: uppercase;
+      -webkit-text-stroke: 2px white;
+      z-index: 1;
+      opacity: 0;
+      /* -webkit-text-stroke: 2px orange; */
+}
+
+
+
+
+.content {
+      position: absolute;
+      top: 6%;
+      left: 0%;
+      width: 41%;
+      color: black;
+      font-weight: lighter;
+      font-size: 18px;
+      line-height: 50px;
+      z-index: -2;
+}
+
+.content2 {
+      position: absolute;
+      top: 140%;
+      left: 54%;
+      color: #3d3d3b;
+      font-weight: lighter;
+      font-size: 20px;
+      line-height: 60px;
+      /* display: block; */
+      z-index: -3;
+}
+
+.content3 {
+      position: absolute;
+      top: 380%;
+      left: 54%;
+      color: #3d3d3b;
+      font-weight: lighter;
+      font-size: 20px;
+      line-height: 60px;
+      /* display: block; */
+      z-index: -3;
+}
+
+
+
+.content4{
+      position: absolute;
+      top: 470%;
+      left: 50%;
+      right: 2%;
+      color: black;
+      font-weight: lighter;
+/* 字體大小 */
+      font-size: 15px;
+/* 行的上下間格距離 */
+      line-height: 30px;  
+      display: block;
+      letter-spacing: 5px;
+      /* background-color: black; */
+      border-width: 10%;
+      /* vertical-align : middle; */
+      width: 42%;
+}
+
+.content5{
+      position: absolute;
+      top: 560%;
+      left: 50%;
+      right: 2%;
+      color: black;
+      font-weight: lighter;
+/* 字體大小 */
+      font-size: 17px;
+/* 行的上下間格距離 */
+      line-height: 50px;  
+      display: block;
+      letter-spacing: 10px;
+      /* background-color: black; */
+      border-width: 1%;
+      /* vertical-align : middle; */
+      width: 50%;
+}
+
+.content6{
+      position: absolute;
+      top: 700%;
+      left: 50%;
+      right: 2%;
+      color: black;
+      font-weight: lighter;
+/* 字體大小 */
+      font-size: 18px;
+/* 行的上下間格距離 */
+      line-height: 50px;  
+      display: block;
+/* 字間距    */
+      /* letter-spacing: 2px;            */
+      /* background-color: black; */
+/* 邊框寬度 */
+      /* border-width: 5%; */
+      /* vertical-align : middle; */
+      /* width: 40%; */
+}
+
+
+
+
+
+
+.content7 {
+      position: absolute;
+      top: 795%;
+      color: white;
+      background-color: black;
+      /* font-weight: lighter; */
+      font-size: 25px;
+      /* line-height: 60px; */
+      /* display: block; */
+      z-index: 1;
+      width: 100%;
+      height: 200px;
+}
+
+
+button {
+      margin-top: 6px;
+      background: #a2a9af;
+      color: #fff;
+      padding: 20px 30px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 10px;
+      border: none;
+}
+
+.media {
+      position: absolute;
+      bottom: 210px;
+}
+
+.media ul {
+      position: absolute;
+      list-style: none;
+}
+
+.media ul li {
+      color: grey;
+      padding: 10px 0;
+}
+
+
+
+
+@media(max-width: 900px) {
+      .wrapper {
+            background: url(202681.png) no-repeat 30% 30%;
+            background-size: cover;
+      }
+
+      .pattern {
+            display: none;
+      }
+
+      .runner img {
+            display: none;
+      }
+
+      .title-1, .title-2 {
+            font-size: 30px;
+      }
+
+      .title-1 {
+            left: 20%;
+            top: 40%;
+      }
+
+      .title-2 {
+            left: 50%;
+            z-index: 1;
+      }
+
+      .menu {
+            display: none;
+      }
+
+      .content p {
+            display: none;
+      }
+
+      .box-2 {
+            top: 70%;
+      }
+
+      .content button {
+            position: fixed;
+            right: 3em;
+            bottom: 4em;
+            z-index: 1;
+      }
+}
